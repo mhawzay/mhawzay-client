@@ -1,0 +1,4 @@
+/storage/:splat https://firebasestorage.googleapis.com/:splat 200!
+/api/:splat https://mhawzay-api.netlify.app/:splat 200!
+/:splat https://mhawzay.vercel.app/:splat 200!
+/ https://mhawzay.vercel.app 200
