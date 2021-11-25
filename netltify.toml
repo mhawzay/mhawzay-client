@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/storage/:id/*"
-  to = "https://firebasestorage.googleapis.com/v0/b/:id/o/:splat"
-  status = 200
-  headers = {Cache-Control = "public, max-age=3600, s-max-age=3600"}
