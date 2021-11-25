@@ -1,0 +1,8 @@
+/storage/:id/*
+  Cache-Control: public, max-age=3600, s-max-age=21600
+
+/api/*
+  Cache-Control: private, max-age=0
+
+/*
+  Cache-Control: public, max-age=1800, s-max-age=3600
